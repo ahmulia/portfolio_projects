@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatible" content="ie=edge">
+<title>Eshop</title>
+<link rel="stylesheet" href="base.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img  id="home" src="/images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customers">Our Customers</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <img src="/images/cart.png" width="30px" height="30px">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1> Give Your Workout A <br>New style!</h1>
+            <p>Success int always about gratness.Its about consistency.Consistent <br> hard work gains success.Greatness will come.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="/images/running.png" height="550px" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--
+<-------Featured categories----->
+<div  class="categories">
+ <div class="small-container">
+
+
+   
+
+
+     <div class="specialoffers">
+        <span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span>
+    </div>
+
+
+   
+    <div class="discount" >
+    <div onclick="prev()" class="control-prev-btn">
+        <i class="fas fa-arrow-left"></i>
+   </div>
+<div id="slider-container" class="slider">
+	<div class="slide">
+        <div class="col-3">
+            <img src="/images/shoes.png">
+            <button>15%</button>
+         </div>
+	</div>
+
+	<div class="slide">
+        <div class="col-3">
+            <img src="/images/boxing.png">
+            <button>20%</button>
+         </div>
+	</div>
+
+    <div class="slide">
+        <div class="col-3">
+            <img src="/images/shoes.png">
+            <button>15%</button>
+         </div>
+	</div>
+    <div class="slide">
+        <div class="col-3">
+            <img src="/images/boxing.png">
+            <button>20%</button>
+         </div>
+	</div>
+
+
+
+	<div class="slide">
+        <div class="col-3">
+            <img src="/images/red_shirt.png">
+            <button>25%</button>
+         </div>
+	</div>
+	<div class="slide">
+        <div class="col-3">
+            <img src="/images/boxing.png">
+            <button>20%</button>
+         </div>
+	</div>
+    <div class="slide">
+        <div class="col-3">
+            <img src="/images/red_shirt.png">
+            <button>25%</button>
+         </div>
+	</div>
+	<div class="slide">
+        <div class="col-3">
+            <img src="/images/boxing.png">
+            <button>20%</button>
+         </div>
+	</div>
+	
+	
+
+	
+    </div>
+
+    <div onclick="next()" class="control-next-btn">
+        <i class="fas fa-arrow-right"></i>
+    </div>
+            <div class="overlay"></div>
+
+        <div class="specialoffers">
+        <span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span><span>DISCOUNT  !!!</span>
+        </div>
+</div>
+<!--
+<-------Featured products----->
+
+<div class="small-container">
+    <h2 id="products"  class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/red_shirt.png">
+                <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/red_shirt.png">
+                <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/red_shirt.png">
+
+                <h4>Red Printed T-shirt</h4>         
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/red_shirt.png">
+                <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+
+
+
+
+
+<h2 class="title">Latest Products</h2>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/shoes.png">
+                <h4>Running shoes</h4>
+ <div class="rating">
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+</div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+
+<!-- ----------offer---------- -->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="/images/black_watch.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on RedStore </p>
+                <h1>Smart Band 4</h1>
+                <small> The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small> <br>
+                <a href="" class="btn">Buy now &#8594;</a>
+              </div>
+         </div>
+    </div>
+</div>
+</div>
+
+<!-- ---------testimonial---------- -->
+<div id="customers" class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>High quality products at affordable prices. Kind and welcoming working stuff. Online shoping with precise delivery. Top notch!</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <img src="/images/user-1.png">
+                    <h3>Mike Smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>High quality products at affordable prices. Kind and welcoming working stuff. Online shoping with precise delivery. Top notch!</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <img src="/images/user-1.png">
+                    <h3>Mabel Joe</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>High quality products at affordable prices. Kind and welcoming working stuff. Online shoping with precise delivery. Top notch!</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <img src="/images/user-1.png" >
+                    <h3> Sean Parker</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------brands----------------------- -->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="/images/nike-logo.png">
+            </div>
+            <div class="col-5">
+                <img src="/images/PayPal.svg.png">
+            </div>
+            <div class="col-5">
+                <img src="/images/Apple-logo.png">
+            </div>
+            <div class="col-5">
+                <img src="/images/philips-logo.png">
+            </div>
+            <div class="col-5">
+                <img src="/images/adidas-logo.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+     <!-- -----------footer-------------- -->
+
+<div class="footer">
+    <div class=" container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+
+                <div class="app-logo">
+                    <img src="/images/google-play.png" height="100px" width="150px">
+                    <img src="/images/app-play.png" height="150px" width="150px">
+                </div>
+
+            </div>
+
+            <div class="footer-col-2">
+                <img src="/images/logo.png">
+                <p>Our Purpose is to Sustainably make the Pleasure and benefits of sports Accessible to the Many</p>
+            </div>
+
+            <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+            </div>
+
+            <div id="contact" class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Ahmed Kukuruz</p>
+        </div>
+    </div>
+
+
+
+
+<script type="text/javascript" src="horizontally.js"></script>
+   
+
+</body>
+</html>
+
