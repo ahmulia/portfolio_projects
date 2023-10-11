@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: url('mekteb.jpg') no-repeat center fixed ;     
+    background-size: cover;
+    
+
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+
+.score_table {
+position: absolute;
+height: 50px;
+width: 140px;
+background-color: rgb(233, 136, 136);
+margin-right: 40rem;
+margin-bottom: 40rem;
+border-radius: 10px;
+
+}
+
+.score_table p {
+    position: absolute;
+    padding: 10px;
+}
+
+.sound_on {
+   
+    margin-bottom: 500px;
+    height: 50px;
+    width : 50px;
+    position:fixed;
+    z-index: 1;
+}
+.sound_off{
+    
+    margin-bottom: 500px;
+    height: 50px;
+    width : 50px;
+    position: fixed;
+    z-index: 0;
+}
+.container{
+    height:auto;
+    width: auto;
+    border-radius: 7px;
+    background: aqua;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+    position:relative;
+
+}
+
+.container h2{
+   
+    font-size: 25px;
+    font-weight: 500px;
+    padding: 18px 25px;
+    border-bottom: 1px solid #ccc;
+    background:whitesmoke;
+
+}
+ .content{
+    
+    background:aqua;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.content .word{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 24px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 4px;
+    text-decoration: underline;
+    
+}
+
+.content .details {
+    margin: 25px 0 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.details p{
+    font-size:18px;
+    margin-bottom: 10px;
+    
+}
+
+.content input{
+    width:100%;
+    height: 60px;
+    outline: none;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+.content .buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(100% / 2 - 8px);
+}
+
+.buttons .check-word {
+    background: rgb(0, 23, 128);
+    height:auto;
+    width:auto;
+    padding: 15px;
+    margin: 5px;;
+}
+.buttons .refresh-word {
+    background: green;
+    background: rgb(0, 23, 128);
+    height:auto;
+    width:auto;
+    padding: 15px;
+    margin: 5px;;
+}
+
+.hint {
+    position: fixed;
+    margin-left: 45rem ;
+    font-size: 12px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.details .text {
+font-size: 12px;
+background-color: goldenrod ;
+width: fit-content;
+}
+
+.clock {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    animation:clockBounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}
+.start {
+    height:100px;
+    width: 200px;
+    border-radius: 50px;
+    border-style:dashed;
+    border-width: 4px;
+    background-color: goldenrod;
+    
+}
+
+.start p {
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+}
+
+
+
+.startAgain {
+    width:200px;
+    padding:10px;
+    background: green;
+    border-radius: 10px;
+    font-weight: bold;
+    display:  none;
+    margin-bottom:5px ;
+}
+.quit {
+    width:200px;
+    padding:10px;
+    background: red;
+    border-radius: 10px;
+    font-weight: bold;
+    display: none;
+    margin-top:5px ;
+
+}
+    
+@keyframes clockBounce {
+    from {transform: translate3d(0,0,0);}
+    to {transform: translate3d(0,-200px,0);}
+}
+
+
+
