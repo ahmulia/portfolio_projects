@@ -1,0 +1,104 @@
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}   
+.headers span {
+    font-style: normal;
+    color: white;
+}
+
+.picPart {
+    display: flex;
+    align-items: center;
+}
+.picPart  h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.picPart img {
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+
+}
+.form {
+    margin-top: 110px;
+    margin-left: 36px;
+}
+.labels{
+    display: flex;
+    justify-content: center;
+   
+}
+.labels input {
+    position: relative;
+    width:550px;
+    height: 55px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 75px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+.form button {
+    width:450px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    font-size: 20px ;
+    cursor: pointer;
+    
+    
+}
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px ;
+    
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 1px;
+   
+}
+
+.memeImg {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 40px 10px;
+   
+}
+.imgContainer h2 {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-family: impact, sans-serif;
+    -webkit-text-stroke: 1px rgb(18, 24, 26);
+    font-size: 40px ;
+}
+.imgContainer .toptxt {
+    
+    margin-top: 10%;
+    text-shadow: rgb(17, 11, 11);
+    
+}
+ .bottomtxt {
+   
+    margin-top : 30%;
+    text-shadow: rgb(17, 11, 11);
+    
+}
+
