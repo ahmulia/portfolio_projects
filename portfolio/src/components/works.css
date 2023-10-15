@@ -1,0 +1,110 @@
+#works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.pics img {
+    height: 20vh;
+    margin: 1rem;
+    width: 20vh ;
+    object-fit: cover;
+    opacity: 0.5;
+
+
+    
+}
+
+
+
+.pics img:hover {
+    opacity: 1;
+    border: 3px greenyellow solid;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    border: 3px red solid;
+
+
+}
+
+#works h1 {
+    font-style: oblique;
+    font-size: 8vw;
+    padding: 3rem;
+
+}
+#works p {
+    padding: 2rem;
+    max-width: 80%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+    
+}
+
+.sM {
+    margin : 3rem 0;
+    padding:25px;
+    width: 25vh;
+    border-radius: 50px;
+    font-weight: bold  ;
+    animation: jello-horizontal ;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    
+}
+.sM:hover{
+    background-color: antiquewhite;
+    text-decoration: underline;
+    border: 3px greenyellow solid;
+    
+}
+
+@media screen and (max-width:560px) {
+    .pics img {
+        height:48vw ;
+    }
+}
+
+
+@keyframes jello-horizontal  {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
